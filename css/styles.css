@@ -368,17 +368,17 @@ body {
   display: flex;
   justify-content: space-between;
 }
-.clients-item {
+.clients .link {
   display: flex;
   padding: 16px 32px;
   border: 1px solid var(--svg-links-color);
   border-radius: 4px;
   fill: var(--svg-links-color);
 }
-.clients-item:hover,
-.clients-item:focus {
+.clients .link:hover,
+.clients .link:focus {
   border-color: var(--action-color);
-  transform: translate(-0.5 2.5);
+  fill: var(--action-color);
 }
 
 /* оформление портфолио */
