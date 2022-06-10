@@ -63,6 +63,9 @@ p {
 .socials-item:not(:last-child) {
   margin-right: 10px;
 }
+.social-icon {
+  fill: currentColor;
+}
 
 body {
   color: var(--primary-text-color);
@@ -134,7 +137,6 @@ body {
   display: flex;
   padding: 32px 0;
   color: var(--secondary-text-color);
-  fill: var(--secondary-text-color);
 }
 
 .header-mail:hover,
@@ -142,10 +144,10 @@ body {
 .header-mail:focus,
 .header-telephone:focus {
   color: var(--action-color);
-  fill: var(--action-color);
 }
 .mail-icon,
 .phone-icon {
+  fill: currentColor;
   margin-right: 10px;
 }
 
@@ -216,7 +218,7 @@ body {
 }
 .join .link {
   border-radius: 50%;
-  fill: var(--primary-background-color);
+  color: var(--primary-background-color);
   background-color: var(--footer-link-color);
 }
 .join .link:hover,
@@ -354,13 +356,13 @@ body {
 }
 
 .team .social-link {
-  fill: var(--svg-links-color);
+  color: var(--secondary-text-color);
 }
 
 .team .link:hover,
 .team .link:focus {
+  color: var(--primary-background-color);
   background-color: var(--action-color);
-  fill: var(--primary-background-color);
 }
 
 .clients {
@@ -385,12 +387,16 @@ body {
   align-items: center;
   border: 1px solid var(--svg-links-color);
   border-radius: 4px;
-  fill: var(--svg-links-color);
+  color: var(--svg-links-color);
 }
 .clients .link:hover,
 .clients .link:focus {
   border-color: var(--action-color);
-  fill: var(--action-color);
+  color: var(--action-color);
+}
+
+.clients-icon {
+  fill: currentColor;
 }
 
 /* оформление портфолио */
