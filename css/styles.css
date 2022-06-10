@@ -93,10 +93,10 @@ body {
 }
 .header .logo {
   display: block;
+  padding: 24px 0;
   margin-right: 93px;
 }
 .logo {
-  padding: 24px 0;
   color: var(--primary-text-color);
   font-family: "Raleway", sans-serif;
   font-weight: 700;
