@@ -54,10 +54,13 @@ p {
 }
 .social-link {
   display: flex;
-  padding: 12px;
+  width: 44px;
+  height: 44px;
+  justify-content: center;
+  align-items: center;
   border-radius: 50%;
 }
-.social-link:not(:last-child) {
+.socials-item:not(:last-child) {
   margin-right: 10px;
 }
 
@@ -77,7 +80,6 @@ body {
 
 /* оформление шапки */
 .header {
-  align-items: center;
   border-bottom: 1px solid var(--header-border-color);
   font-weight: 500;
   font-size: 14px;
@@ -89,12 +91,12 @@ body {
   display: flex;
   align-items: center;
 }
-
 .header .logo {
   display: block;
   margin-right: 93px;
 }
 .logo {
+  padding: 24px 0;
   color: var(--primary-text-color);
   font-family: "Raleway", sans-serif;
   font-weight: 700;
@@ -188,7 +190,7 @@ body {
   color: var(--footer-text-color);
 }
 
-.footer li:not(:last-child) {
+.address li:not(:last-child) {
   margin-bottom: 9px;
 }
 
@@ -205,6 +207,7 @@ body {
 }
 
 .join-title {
+  display: block;
   margin-bottom: 20px;
   color: var(--footer-text-color);
   font-size: 14px;
@@ -229,6 +232,7 @@ body {
 }
 
 .overlay {
+  margin: 0 auto;
   max-width: 1600px;
   height: 600px;
   background-image: linear-gradient(to top, var(--hero-overlay-color), var(--hero-overlay-color)),
@@ -273,7 +277,11 @@ body {
 }
 
 .about-icon-wrap {
-  padding: 25px 100px;
+  display: flex;
+  width: 270px;
+  height: 120px;
+  justify-content: center;
+  align-items: center;
   background-color: var(--nav-button-backgroud-color);
   border-radius: 4px;
   margin-bottom: 30px;
@@ -368,9 +376,13 @@ body {
   display: flex;
   justify-content: space-between;
 }
+
 .clients .link {
   display: flex;
-  padding: 16px 32px;
+  width: 170px;
+  height: 92px;
+  justify-content: center;
+  align-items: center;
   border: 1px solid var(--svg-links-color);
   border-radius: 4px;
   fill: var(--svg-links-color);
@@ -453,6 +465,7 @@ body {
 }
 
 .projects-title {
+  color: var(--primary-text-color);
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
