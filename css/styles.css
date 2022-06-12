@@ -45,6 +45,7 @@ p {
 }
 
 .link {
+  display: block;
   text-decoration: none;
 }
 
@@ -95,7 +96,6 @@ body {
   align-items: center;
 }
 .header .logo {
-  display: block;
   padding: 24px 0;
   margin-right: 93px;
 }
@@ -111,7 +111,6 @@ body {
 }
 
 .site-nav-link {
-  display: block;
   padding: 32px 0;
   color: var(--primary-text-color);
 }
@@ -179,7 +178,6 @@ body {
 }
 
 .footer .logo {
-  display: block;
   margin-bottom: 20px;
 }
 
@@ -198,7 +196,6 @@ body {
 
 .footer-mail,
 .footer-telephone {
-  display: block;
   color: var(--footer-contacts-color);
 }
 .footer-mail:hover,
@@ -356,7 +353,7 @@ body {
 }
 
 .team .social-link {
-  color: var(--secondary-text-color);
+  color: var(--svg-links-color);
 }
 
 .team .link:hover,
@@ -461,8 +458,9 @@ body {
   margin-top: 30px;
   outline: 1px solid var(--projects-border-color);
 }
-.projects-item:hover,
-.projects-item:focus {
+
+.projects .link:hover,
+.projects .link:focus {
   box-shadow: var(--portfolio-shadow-set);
 }
 
