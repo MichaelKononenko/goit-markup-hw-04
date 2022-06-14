@@ -134,6 +134,7 @@ body {
 .header-mail,
 .header-telephone {
   display: flex;
+  align-items: center;
   padding: 32px 0;
   color: var(--secondary-text-color);
 }
